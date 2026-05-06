@@ -25,7 +25,7 @@ class QuizEngine:
         if user_index == correct_answer:
             self.score += 1
             return True
-        return question['answer']
+        return False
     
     def get_score(self):
 # return the final score
